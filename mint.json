@@ -1,0 +1,134 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Scout",
+  "logo": {
+    "light": "/logo/scout-light.svg",
+    "dark": "/logo/scout-dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#a4553f",
+    "light": "#c4775f",
+    "dark": "#8a4534",
+    "background": {
+      "light": "#ffffff",
+      "dark": "#1a1a1a"
+    }
+  },
+  "font": {
+    "headings": {
+      "family": "Outfit",
+      "weight": 700
+    },
+    "body": {
+      "family": "Outfit",
+      "weight": 400
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Download",
+      "url": "https://scoutvoice.ai/download"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Scout",
+    "url": "https://scoutvoice.ai/download"
+  },
+  "anchors": [
+    {
+      "name": "Updates",
+      "icon": "megaphone",
+      "url": "https://scoutvoice.ai/updates"
+    },
+    {
+      "name": "Support",
+      "icon": "life-ring",
+      "url": "https://scoutvoice.ai/account/support"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Voice Commands",
+      "url": "voice-commands"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "installation",
+        "quickstart",
+        "system-requirements"
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/dictation",
+        "features/magic-edit",
+        "features/writing-styles",
+        "features/dictionary",
+        "features/quick-phrases"
+      ]
+    },
+    {
+      "group": "Settings",
+      "pages": [
+        "settings/hotkeys",
+        "settings/audio",
+        "settings/language",
+        "settings/general"
+      ]
+    },
+    {
+      "group": "Account",
+      "pages": [
+        "account/plans-and-billing",
+        "account/referrals",
+        "account/support"
+      ]
+    },
+    {
+      "group": "Platform",
+      "pages": [
+        "platform/macos",
+        "platform/windows"
+      ]
+    },
+    {
+      "group": "Privacy & Security",
+      "pages": [
+        "privacy/how-audio-works",
+        "privacy/data-handling"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/permissions",
+        "troubleshooting/microphone",
+        "troubleshooting/common-issues"
+      ]
+    },
+    {
+      "group": "Voice Commands",
+      "pages": [
+        "voice-commands/overview",
+        "voice-commands/punctuation",
+        "voice-commands/navigation",
+        "voice-commands/symbols",
+        "voice-commands/lists",
+        "voice-commands/caps-and-case",
+        "voice-commands/editing"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://scoutvoice.ai"
+  },
+  "feedback": {
+    "thumbsRating": true
+  }
+}
